@@ -1,0 +1,8 @@
+CREATE TABLE store (id INTEGER PRIMARY KEY, name TEXT, price TEXT, size INTEGER);
+
+INSERT INTO store VALUES (1, "Big Plant", 10, 4);
+INSERT INTO store VALUES (2, "Med Plant", 9, 3);
+INSERT INTO store VALUES (3, "Small Plant", 8, 2);
+
+SELECT * FROM store
+ORDER BY price desc
